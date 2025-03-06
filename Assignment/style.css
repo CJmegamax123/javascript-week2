@@ -1,1 +1,8 @@
-body {color: navy; overflow-wrap: break-word; margin: 0; }
+body {color: navy; overflow-wrap: break-word; margin: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+.logo {width: 227.5px; height: 45px; }
+nav {display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f0f0f0; }
+footer {text-align: center; padding: 20px;}
+.half-image {width: 600px; }
+header {position: relative;}
+ul {display: flex; list-style-type: none; gap: 20px; }
+ul a {text-decoration: none; color: navy; }
