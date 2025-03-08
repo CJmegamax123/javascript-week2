@@ -6,26 +6,34 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="Welcome()">
     <header>
         <nav >
             <div>
-            <img src="/assets/TheCollectiveBlueprintLogo.png" alt="Logo" class="logo">
+                 <img src="/assets/TheCollectiveBlueprintLogo.png" alt="Logo" class="logo">
             </div>
             <div>
                 <ul>
-                   <li><a href="Home.html">Home</a></li>
-                   <li><a href="About.html">About</a></li>
-                   <li><a href="Contacts.html">Contacts</a></li>
+                   <li><button><a href="Home.html">Home</a></button></li>
+                   <li><button><a href="About.html">About</a></button></li>
+                   <li><button><a href="Contacts.html">Contact</a></button></li>
                 </ul>
             </div>
         </nav>
+        <div>
+            <h1 id="greeting"></h1>
+        </div>
+        <div id="banner">
+            <h2>BUILD NEW SKILLS. START A</h2><h1> NEW CAREER.</h1>
+            <p>We increase socioeconomic mobility by building pathways to thriving careers.</p>
+        </div>
+        <button><a href="Contacts.html">Contact Us</a></button>
     </header>
     <main>
-
     </main>
     <footer>
         <h4>&copy; 2024, The Collective Blueprint</h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

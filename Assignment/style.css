@@ -1,8 +1,21 @@
 body {color: navy; overflow-wrap: break-word; margin: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 .logo {width: 227.5px; height: 45px; }
-nav {display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f0f0f0; }
-footer {text-align: center; padding: 20px;}
-.half-image {width: 600px; }
+nav {display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: lightgray; }
+footer {text-align: center; padding: 20px ; background-color: lightgray;}
+#banner {text-align: left; font-size: x-large; background-color: navy; color: white; padding: 30px;}
 header {position: relative;}
 ul {display: flex; list-style-type: none; gap: 20px; }
-ul a {text-decoration: none; color: navy; }
+button a {text-decoration: none; color: white; font-size: large;}
+button:hover, a:hover {background-color: darkorange; color: gray; }
+#missionStatement {text-align: center; color: white; background-color:orange; padding: 30px;}
+.contactButton {margin: 50px;}
+button {padding: 15px; background-color: orange; color: white; font-size: large; text-decoration: none;}
+input:hover {background-color: darkorange; padding: 20px; margin-left: 20px;}
+main div {margin: 50px;}
+#missionStatement p {margin: 50px;}
+.headshot {width: 300px; height: 300px;}
+.container {display: flex}
+.container div {text-align: center;}
+.staffName {color: orange;}
+b {color: orange;}
+#greeting {text-align: center; background-color: orange; font-size: xx-large;}

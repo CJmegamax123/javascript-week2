@@ -14,18 +14,40 @@
             </div>
             <div>
                 <ul>
-                   <li><a href="Home.html">Home</a></li>
-                   <li><a href="About.html">About</a></li>
-                   <li><a href="Contacts.html">Contacts</a></li>
+                   <li><button><a href="Home.html">Home</a></button></li>
+                   <li><button><a href="About.html">About</a></button></li>
+                   <li><button><a href="Contacts.html">Contact</a></button></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-
+        <h1>Contact Us!</h1>
+        <form action="mailto:person@changeiscollective.org" method="get" enctype="text/plain">
+            <div>
+              <label for="firstName">First Name: </label>
+              <input type="text" name="firstName" id="firstName" required/>
+            </div>
+            <div>
+                <label for="lastName">Last Name: </label>
+                <input type="text" name="lastName" id="lastName" required/>
+            </div>
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" required/>
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" name="message"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Submit"/>
+            </div>
+          </form>
     </main>
     <footer>
         <h4>&copy; 2024, The Collective Blueprint</h4>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
